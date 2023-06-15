@@ -51,7 +51,7 @@ body{
 /* MAIN START */
 
 
-.box{
+.block{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,3 +79,33 @@ body{
     border-radius: 0 10% 10% 0;
 }
 
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+.box-1 {
+    width: 300px;
+    height: 250px;
+    background-color: rgb(223, 143, 14);
+    margin-top: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box__img{
+    height: 50px;
+    width: 50px;
+}
+
+.box__btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f31313;
+    cursor: pointer;
+}
